@@ -1,0 +1,78 @@
+
+body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  background-color: #eee; 
+  
+}
+
+nav ul {
+  background-color: #0e0d0efd;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #e6d2ee;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  
+}
+
+.contact label {
+  display: block;
+  font-weight: bold;
+  margin: 08px 12px;
+  font-size: 1.2rem;
+  color: #2b0c4d;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact form button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #3b176b;
+  color: white;
+  font-size: 1.2rem;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #52228e;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* form will be vertically centered within 80% screen */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+}
+
